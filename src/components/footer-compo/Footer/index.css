@@ -1,0 +1,96 @@
+.footer-container {
+    background-color: #f5f5f5;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+
+  }
+  
+  
+  .footer-container h6{
+    color: rgb(153, 156, 153);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    margin-top: 10px;
+  }
+  .hea{
+    color: rgb(22, 79, 22);
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    margin-top: 10px;
+  }
+  .b-span{
+    color: rgb(22, 79, 22);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    margin-top: 10px;
+  }
+  .footer-sec-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .p{
+    color: rgb(67, 74, 65);
+    font-size: 16px;
+    font-family: Roboto;
+    margin: 8px;
+  }
+  .ull{
+    width: 30%;
+    padding-right: 5px;
+  }
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 1rem 0;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 0.5rem;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  .footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      text-align: center;
+    }
+  
+    .footer-bottom {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -6,6 +6,7 @@ import Testimonial from '../components/Testimonial';
 import QA from '../components/QA';
 
 import './page.css';
+import Footer from '@/components/footer-compo/Footer';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Hero />
         <Testimonial />
         <QA />
+        <Footer/>
       </main>
     </div>
   );
