@@ -1,0 +1,104 @@
+.start-main-bg-con{
+    height: 140vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+}
+.start-main-bg-con h3{
+    color: rgb(31, 30, 30);
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.item-container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.item{
+    height: 70px;
+    width: 40%;
+    border:1px solid gray;
+    border-radius: 15px;
+    font-size: 25px;
+    color: rgb(42, 42, 42);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.price-details-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+}
+.price-details-left-con{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.price-details-right-con{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.price-h{
+    color: rgb(31, 31, 31);
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    margin-bottom: 10px;
+}
+
+.price-p{
+    color: rgb(92, 91, 91);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.unlock-props-con{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.props-con{
+    background-color: rgb(214, 234, 247);
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+.unlock-item-con{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
