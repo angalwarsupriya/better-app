@@ -1,11 +1,16 @@
 import React from 'react'
 import './index.css'
+import { FiFacebook } from 'react-icons/fi'
+import { FaInstagram } from 'react-icons/fa6'
+import {CiLinkedin} from 'react-icons/ci'
 function FooterCopyRight() {
   return (
     <div className='copyright-con'>
-          <div className='icons-row'>
-              
-          </div>
+        <div className='icons-row'>
+          <FiFacebook />
+          <FaInstagram />
+          <CiLinkedin/>
+        </div>
           <hr/>
           <div className='row'>
               <ol>

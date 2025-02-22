@@ -6,6 +6,7 @@ import OurMission from '@/components/about-us/OurMission'
 import ReadStory from '@/components/about-us/ReadStory'
 import ChangingThings from '@/components/about-us/ChangingThings'
 import Footer from '@/components/footer-compo/Footer'
+import Timeline from '@/components/about-us/Timeline'
 function About() {
   return (
     <div className="about-page">
@@ -14,7 +15,7 @@ function About() {
         <OurMission />
         <ReadStory />
         <ChangingThings />
-       
+        <Timeline/>
       </main>
     <Footer/>
     </div>
