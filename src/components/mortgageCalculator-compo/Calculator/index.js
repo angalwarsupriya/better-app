@@ -1,43 +1,58 @@
 "use client"
-import React, { useState } from "react";
 import "./index.css";
 
 const Calculator = () => {
-  const [homePrice, setHomePrice] = useState(300000);
-  const [zipCode, setZipCode] = useState("500062");
-  const [downPayment, setDownPayment] = useState(20);
-  const [interestRate, setInterestRate] = useState(6.5);
-  const [loanTerm, setLoanTerm] = useState(30);
-
-  const monthlyPayment = (homePrice * (1 - downPayment / 100) * interestRate) / loanTerm;
 
   return (
-    <div className="mortgage-calculator">
-      <h2>Mortgage Calculator</h2>
-      <div className="input-group">
-        <label>Home Price:</label>
-        <input type="number" value={homePrice} onChange={(e) => setHomePrice(e.target.value)} />
+    <div className="calculator-bg-con">
+      <div className="cal-con">
+      <h2 className="cal-h">Mortgage Calculator</h2>
+      <p>Our mortgage calculator includes key factors like homeowners association fees, property taxes, and private mortgage insurance (PMI). Get the whole picture and calculate your total monthly payment.</p>
+      
+      <div className="cal-row-1">
+        <div className="row-con">
+          <p className="la">Home Price</p>
+          <h5 className="home-price">$300,000</h5>
+        </div>
+        <div className="row-con">
+          <p className="lable">Monthly Payment</p>
+          <h5 className="monthly-p">$2,146/mo</h5>
+        </div>
+        <div className="row-con">
+          <button className="get-approve-btn">Get pre-approved</button>
+        </div>
       </div>
-      <div className="input-group">
-        <label>ZIP Code:</label>
-        <input type="text" value={zipCode} onChange={(e) => setZipCode(e.target.value)} />
+     
+      <div className="percentage-con">
+        <div className="fill-con"></div>
       </div>
-      <div className="input-group">
-        <label>Down Payment (%):</label>
-        <input type="number" value={downPayment} onChange={(e) => setDownPayment(e.target.value)} />
-      </div>
-      <div className="input-group">
-        <label>Interest Rate (%):</label>
-        <input type="number" value={interestRate} onChange={(e) => setInterestRate(e.target.value)} />
-      </div>
-      <div className="input-group">
-        <label>Length of Loan (Years):</label>
-        <input type="number" value={loanTerm} onChange={(e) => setLoanTerm(e.target.value)} />
-      </div>
-      <div className="result">
-        <h3>Monthly Payment: ${monthlyPayment.toFixed(2)}</h3>
-      </div>
-      <button className="pre-approve-button">Get pre-approved</button>
+
+      <div className="cal-row-3">
+
+        <div className="cal-left-con">
+          <div className="cal-box">
+            <p>Zip code</p>
+            <h6>500062</h6>
+          </div>
+          <div className="cal-box">
+            <p>Down payment</p>
+            <h6>$ 60,000</h6>
+          </div>
+        </div>
+
+        <div className="cal-right-con">
+          <div className="cal-box">
+            <p>Interest Rate</p>
+            <h6>6.500</h6>
+          </div>
+          <div className="cal-box">
+            <p>Length of loan</p>
+            <h6>30 years</h6>
+          </div>
+        </div>
+
+        </div>
+        </div>
     </div>
   );
 };

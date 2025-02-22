@@ -5,6 +5,7 @@ import Header from '@/components/Header'
 import OurMission from '@/components/about-us/OurMission'
 import ReadStory from '@/components/about-us/ReadStory'
 import ChangingThings from '@/components/about-us/ChangingThings'
+import Footer from '@/components/footer-compo/Footer'
 function About() {
   return (
     <div className="about-page">
@@ -14,6 +15,7 @@ function About() {
         <ReadStory />
         <ChangingThings/>
       </main>
+    <Footer/>
     </div>
   )
 }

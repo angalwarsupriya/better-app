@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import FooterCopyRight from '../FooterCopyRight';
 
 const footerbetterdata = [
   {
@@ -68,7 +69,7 @@ const Footer = () => {
       <div className='footer-sec-con'>
       <ul className='ull'>
           {footerbetterdata.map((item, ind) => (
-            <li>
+            <li key={ind}>
               <h6 className='h6'><span className='b-span'>Better</span>{item.title}</h6>
               <p className='p'>{item.des}</p>
             </li>
@@ -88,6 +89,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>© 2025 Better.com. All rights reserved.</p>
       </div>
+      <FooterCopyRight/>
     </footer>
   );
 };

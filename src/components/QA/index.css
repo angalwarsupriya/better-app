@@ -1,5 +1,5 @@
 .qa-section {
-    height: 120vh;
+    min-height: 120vh;
     width: 100vw;
     background-color: #ffffff;
     display: flex;
@@ -41,7 +41,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80vw;
+    width: 90vw;
     gap: 1rem;
   }
   
@@ -88,7 +88,7 @@
   }
   .sm-img{
     height: 70%;
-    width: 80%;
+    width: 100%;
     border-radius: 20px;
   }
   .item-btn{
@@ -117,11 +117,66 @@
     letter-spacing: 1px;
     color: gray;
   }
+
+  @media (max-width:1094px) {
+  
+  }
   
   @media (max-width: 768px) {
-    .qa-section h2 {
-      font-size: 1.5rem;
+    .qa-tabs button{
+      height: 30px;
+      width: 80px;
+      border-radius: px;
+      font-size: 10px;
+      width: 50%;
     }
+    .qa-top-row h2 {
+      font-size:15px;
+      width: 40%;
+    }
+    
+    .item1{
+      width: 100%;
+    }
+    .item2{
+      width: 100%;
+    }
+    .item3{
+      width: 100%;
+    }
+    .item4{
+      width: 100%;
+    }
+ .qa-tabs{
+  margin-left: 0px;
+ }
+    .lg-img{
+      height: 50%;
+      width: 100%;
+      border-radius: 20px;
+      margin-left: 20px;
+      margin-left: 0px;
+    }
+    .sm-img{
+      height: 50%;
+      width: 100%;
+      border-radius: 20px;
+    }
+    .item-btn{
+      width: 20px;
+      height: 20px;
+      font-size: 16px;
+    }
+  
+    .qa-text h3 {
+      font-size:16px;
+    }
+    
+    .qa-text p {
+      font-size:10px;
+      line-height: 15px;
+    }
+
   
     .qa-item {
       flex-direction: column;
@@ -134,12 +189,7 @@
       margin-bottom: 0.5rem;
     }
   
-    .qa-text h3 {
-      font-size: 1rem;
-    }
-  
-    .qa-text p {
-      font-size: 0.9rem;
-    }
+    
   }
+  
   

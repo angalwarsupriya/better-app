@@ -1,0 +1,46 @@
+.property-tax-table {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000; /* Black border for the table container */
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .property-tax-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000; /* Black font color for the heading */
+  }
+  
+  .property-tax-table table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #000; /* Black font color for the table */
+    overflow-x: auto;
+  }
+  
+  .property-tax-table th, .property-tax-table td {
+    padding: 10px;
+    border: 1px solid #000; /* Black border for table cells */
+    text-align: center;
+    font-family: Arial, sans-serif; /* You can change this to your preferred font */
+  }
+  
+  .property-tax-table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add horizontal scrolling for small screens */
+  @media (max-width: 768px) {
+    .property-tax-table table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .property-tax-table th, .property-tax-table td {
+      display: inline-block;
+      border: 1px solid #000; /* Black border for table cells */
+    }
+  }
+  

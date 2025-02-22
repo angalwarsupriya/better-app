@@ -1,7 +1,8 @@
+
 import React from 'react';
 import './index.css';
-
-import {FcGoogle} from  'react-icons/fc'
+import { IoStarSharp } from 'react-icons/io5';
+import { FcGoogle } from 'react-icons/fc';
 
 const Hero = () => {
   return (
@@ -17,9 +18,13 @@ const Hero = () => {
         </div>
         <div className="ratings-con">
           <div className='ratings-row-con'>
-            <FcGoogle/>
+            <FcGoogle />
             <div className='star-icons-row'>
-                ⭐⭐⭐⭐⭐
+              <IoStarSharp style={{ color: "yellow" }} />
+              <IoStarSharp style={{ color: "yellow" }} />
+              <IoStarSharp style={{ color: "yellow" }} />
+              <IoStarSharp style={{ color: "yellow" }} />
+              <IoStarSharp style={{ color: "yellow" }} />
             </div>
           </div>
           <p className='hero-icon-p'>3 min / my name is something</p>

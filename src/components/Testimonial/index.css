@@ -1,4 +1,6 @@
-.testimonial-section {
+
+
+  .testimonial-section {
     padding: 2rem 1rem;
     height: 100vh;
     background-color: whitesmoke;
@@ -7,100 +9,161 @@
     justify-content: center;
     text-align: center;
   }
-  .img-div{
+  
+  .img-div {
     height: 60vh;
-    width: 60%;
+    width: 80%;
     background-color: red;
   }
-  .tabs{
-    display: flex;
-    align-items: center;
-  }
-  .tabs button{
-    height: 35px;
-    width: 100px;
-    border:3px solid  #044e22;
-    border-radius: 20px;
-    color: black;
-    background-color:white;
-    font-size: 13px;
-  }
- .testimonial-right-con h2{
-    font-size: 50px;
-    color:  #044e22;
-    font-family: Roboto;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
- }
- .testimonial-left-con{
-   width: 35vw;
- }
- .testimonial-right-con{
-   width: 35vw;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
- }
- .testimonial-right-con button{
-  height: 40px;
-  width: 150px;
-  background-color:  #044e22;
-  color: white;
-  font-size: 13px;
-  border-radius: 20px;
-  margin-top: 20px;
-  border: none;
- }
- .star-row{
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  font-size: 14px;
- }
- .star-row p {
-  color: rgb(56, 55, 55);
-  margin-left: 5px;
-  text-align: center;
- }
-  .testimonail-img{
-    width: 100%;
-    height: 100%;
-  }
+  
   .tabs {
-    width: 60%;
-    border-radius: 5px;
     display: flex;
-    margin-top: 30px;
     align-items: center;
-    justify-content: space-between;
-  }
-  
-  .tabs h2 {
-    font-size: 1.8rem;
-  }
-  
-  .tabs p {
-    font-size: 1rem;
-    margin: 1rem 0;
+    margin-top: 40px;
   }
   
   .tabs button {
-    padding: 0.5rem 1rem;
-    cursor: pointer;
+    height: 35px;
+    width: 100px;
+    border: 3px solid #044e22;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  
+  .testimonial-right-con h2 {
+    font-size: 50px;
+    color: #044e22;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-left-con {
+    width: 35vw;
+  }
+  
+  .testimonial-right-con {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .testimonial-right-con button {
+    height: 40px;
+    width: 150px;
+    background-color: #044e22;
+    color: white;
+    font-size: 13px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+  }
+  
+  .star-row {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .star-row p {
+    color: rgb(56, 55, 55);
+    margin-left: 5px;
+    text-align: center;
+  }
+  
+  .testimonial-img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .testimonial-left-con, .testimonial-right-con {
+      width: 45vw;
+    }
+  
+    .testimonial-right-con h2 {
+      font-size: 40px;
+    }
+  
+    .testimonial-right-con button {
+      height: 35px;
+      width: 130px;
+      font-size: 12px;
+    }
   }
   
   @media (max-width: 768px) {
-    .tabs h2 {
-      font-size: 1.5rem;
+    .testimonial-section {
+      flex-direction: column;
     }
   
-    .tabs p {
-      font-size: 0.9rem;
+    .img-div {
+      height: 40vh;
+      width: 100%;
+    }
+  
+    .testimonial-left-con, .testimonial-right-con {
+      width: 80vw;
+    }
+  
+    .testimonial-right-con h2 {
+      font-size: 30px;
+    }
+  
+    .testimonial-right-con button {
+      height: 30px;
+      width: 120px;
+      font-size: 10px;
+    }
+    .tabs{
+      margin-left: 20%;
+      margin-bottom: 30px;
+    }
+    .tabs button {
+      height: 40px;
+      width: 100px;
+      font-size: 12px;
+    }
+  
+    .star-row {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .img-div {
+      height: 30vh;
+      width: 100%;
+    }
+   .tabs{
+    margin-left: 15%;
+   }
+    .testimonial-right-con h2 {
+      font-size: 25px;
+    }
+  
+    .testimonial-right-con button {
+      height: 25px;
+      width: 100px;
+      font-size: 9px;
     }
   
     .tabs button {
-      font-size: 0.9rem;
+      height: 25px;
+      width: 70px;
+      font-size: 11px;
+    }
+  
+    .star-row {
+      font-size: 10px;
     }
   }
   

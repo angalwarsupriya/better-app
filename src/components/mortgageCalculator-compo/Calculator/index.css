@@ -1,16 +1,156 @@
-.mortgage-calculator {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+.calculator-bg-con {
     border-radius: 8px;
-    padding: 20px;
-    max-width: 400px;
+    min-height: 90vh;
     margin: 0 auto;
+    width:100vw;
+    background-color: rgb(236, 249, 249);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
   }
-  
-  .mortgage-calculator h2 {
-    text-align: center;
+  .cal-con{
+    height: 80vh;
+    width: 90%;
+    margin: 0px;
   }
-  
+  .cal-h {
+    color: rgb(18, 18, 18);
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    margin-bottom: 30px;
+  }
+  .calculator-bg-con p{
+    color: rgb(91, 90, 90);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    width: 60%;
+  }
+  .cal-row-1{  
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 50px;
+     width: 100%;
+     margin-top: 40px;
+  }
+  .home-price{
+    height: 70px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(39, 39, 39);
+    border-radius: 10px;
+    color: rgb(18, 18, 18);
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    margin-bottom: 30px;
+    padding-left: 70px;
+    padding-top: 10px;
+  }
+  .monthly-p{
+    color: rgb(18, 18, 18);
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    margin-bottom: 30px;
+  }
+  .row-con p{
+    color: rgb(73, 72, 72);
+    font-size: 18px;
+    font-weight:600;
+    letter-spacing: 0.5px;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .row-con{
+    color: rgb(26, 26, 26);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    width: 60%;
+  }
+  .home-price{
+    height: 70px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(39, 39, 39);
+    border-radius: 10px;
+  }
+  .get-approve-btn{
+    color: rgb(246, 246, 246);
+    font-size: 15px;
+    font-weight: normal;
+    background-color: rgb(26, 79, 21);
+    height: 70px;
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+  }
+
+  .percentage-con{
+    width: 80%;
+    height: 5px;
+    border-radius: 20px;
+    background-color: gray;
+    margin-left: 10%;
+  }
+  .fill-con{
+    height: 100%;
+    width: 60%;
+    background-color: #28a745;
+    border-radius: 20px;
+  }
+  .cal-box{
+    height: 80px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(39, 39, 39);
+    border-radius: 10px;
+  }
+  .cal-row-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 90px;
+  }
+  .cal-left-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .cal-right-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cal-box{
+    padding: 10px;
+    margin-left: 20px;
+  }
+  .cal-box p{
+    color: rgb(73, 72, 72);
+    font-size: 13px;
+    font-weight:500;
+    letter-spacing: 0.5px;
+  }
+  .cal-box h6{
+    color: rgb(39, 39, 39);
+    font-size: 23px;
+    font-weight:bold;
+    letter-spacing: 0.5px;
+  }
+
+  /*kkkkkkkkk*/
   .input-group {
     margin-bottom: 15px;
   }
@@ -43,9 +183,70 @@
     font-size: 16px;
   }
   
-  @media (min-width: 600px) {
-    .mortgage-calculator {
-      max-width: 600px;
+  @media (max-width: 1023px) {
+    .cal-row-3{  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 0px;
     }
+    .cal-box{
+      width:350px;
+      margin-top: 30px;
+    }
+    .row-con{
+      margin: 0px;
+      padding: 0px;
+      width: 50%;
+    }
+
+    .cal-row-1{  
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+  }
+  @media (max-width: 767px) {
+    .calculator-bg-con {
+      min-width: 100vw;
+      min-height: 100vh;
+    }
+    
+    .cal-row-3{
+      display: none;
+      
+    }
+    .row-con{
+      width: 100%;
+    }
+    .cal-left-con{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .cal-right-con{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .calculator-bg-con p{
+      width: 100%;
+    }
+    .cal-row-1{
+      margin: 10px;
+      justify-content: center;
+    }
+    .cal-row-3{
+      margin: 20px;
+    }
+  .get-approve-btn{
+    font-size: 20px;
+    height: 60px;
+    width: 90%;
+    border: none;
+    margin: 0px;
+  }
+
   }
   

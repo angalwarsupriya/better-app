@@ -25,3 +25,13 @@
     letter-spacing: 0.5px;
     text-align: center;
 }
+@media (max-width:768px){
+    .changing-bg-con h2{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .changing-bg-con p{
+        font-size: 14px;
+        line-height: 30px;
+    }
+}

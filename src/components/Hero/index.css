@@ -1,27 +1,31 @@
-.hero-section {
+
+  .hero-section {
     height: 90vh;
     text-align: center;
     background-color: #044e22;
     color: #1af572;
-    font-size: Roboto;
+    font-family: Roboto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .home-row{
+  
+  .home-row {
     display: flex;
     width: 50%;
     justify-content: space-between;
     margin-top: 70px;
   }
+  
   .hero-section h1 {
     font-size: 80px;
     margin-bottom: 1rem;
     letter-spacing: 3px;
     font-weight: 700;
   }
-  .hero-btn{
+  
+  .hero-btn {
     width: 150px;
     height: 50px;
     border-radius: 30px;
@@ -29,6 +33,7 @@
     color: black;
     background-color: #1af572;
   }
+  
   .hero-section .ratings {
     margin-bottom: 1rem;
     display: flex;
@@ -36,45 +41,98 @@
     gap: 0.5rem;
   }
   
-  .hero-section .ratings span {
-    font-size: 1.2rem;
-  }
-  .hero-left-con1{
+  .hero-left-con1 {
     display: flex;
     align-self: center;
     margin-top: 10px;
   }
+  
   .hero-section button {
     padding: 0.5rem 1rem;
     border: none;
     cursor: pointer;
   }
-  .hero-icon-p{
+  
+  .hero-icon-p {
     color: white;
     font-size: 14px;
     margin-top: 10px;
   }
-  .ratings-row-con{
+  
+  .ratings-row-con {
     display: flex;
     align-items: center;
     font-size: 20px;
   }
-  .star-icons-row{
+  
+  .star-icons-row {
     display: flex;
     align-items: center;
     margin-left: 5px;
   }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .home-row {
+      width: 70%;
+    }
+  
+    .hero-section h1 {
+      font-size: 60px;
+    }
+  
+    .hero-btn {
+      width: 130px;
+      height: 45px;
+      font-size: 10px;
+    }
+  
+    .ratings-row-con {
+      font-size: 18px;
+    }
+  }
+  
   @media (max-width: 768px) {
     .hero-section h1 {
-      font-size: 2rem;
+      font-size: 40px;
     }
   
-    .hero-section .ratings span {
-      font-size: 1rem;
+    .hero-btn {
+      width: 120px;
+      height: 40px;
+      font-size: 10px;
     }
   
-    .hero-section button {
-      font-size: 1rem;
+    .ratings-row-con {
+      font-size: 16px;
+    }
+  
+    .star-icons-row {
+      margin-left: 3px;
+    }
+  
+    .hero-icon-p {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-section h1 {
+      font-size: 30px;
+    }
+  
+    .hero-btn {
+      width: 100px;
+      height: 35px;
+      font-size: 8px;
+    }
+  
+    .ratings-row-con {
+      font-size: 14px;
+    }
+  
+    .hero-icon-p {
+      font-size: 10px;
     }
   }
   

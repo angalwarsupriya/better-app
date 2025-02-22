@@ -1,19 +1,21 @@
 
-.raed-story-bg-con{
+ .read-story-bg-con    {
     height: 100vh;
     width: 100vw;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-left: 10%;padding-right: 10%;
-}
-.read-story-left-con{
-   height:50%;
-   width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.read-story-left-con h5{
+.read-story-left-con {
+    height: 50%;
+    width: 50%;
+}
+
+.read-story-left-con h5 {
     color: rgb(50, 50, 50);
     font-size: 37px;
     font-weight: bold;
@@ -21,14 +23,16 @@
     font-family: Roboto;
     margin-bottom: 30px;
 }
-.read-story-left-con p{
+
+.read-story-left-con p {
     color: rgb(92, 91, 91);
     font-size: 18px;
     font-weight: normal;
     line-height: 30px;
     letter-spacing: 0.5px;
 }
-.read-story-left-con button{
+
+.read-story-left-con button {
     color: rgb(246, 246, 246);
     font-size: 15px;
     font-weight: normal;
@@ -40,15 +44,72 @@
     margin-top: 20px;
 }
 
-.read-story-right-con{
+.read-story-right-con {
     height: 70%;
     width: 40%;
     display: flex;
     align-items: center;
-    justify-content:center;
- }
- .read-story-right-con img{
+    justify-content: center;
+}
+
+.read-story-right-con img {
     height: 80%;
     width: 70%;
- }
- 
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .read-story-left-con {
+        width: 60%;
+    }
+
+    .read-story-right-con {
+        width: 35%;
+    }
+}
+
+@media (max-width: 768px) {
+    .read-story-bg-con {
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .read-story-left-con, .read-story-right-con {
+        width: 100%;
+        height: auto;
+    }
+
+    .read-story-left-con h5 {
+        font-size: 30px;
+    }
+
+    .read-story-left-con p {
+        font-size: 16px;
+    }
+
+    .read-story-left-con button {
+        height: 50px;
+        width: 160px;
+    }
+
+    .read-story-right-con img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .read-story-left-con h5 {
+        font-size: 25px;
+    }
+
+    .read-story-left-con p {
+        font-size: 14px;
+    }
+
+    .read-story-left-con button {
+        height: 45px;
+        width: 140px;
+    }
+}

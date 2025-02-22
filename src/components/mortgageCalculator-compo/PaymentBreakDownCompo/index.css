@@ -1,0 +1,141 @@
+.payment-break-bg-con{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: white;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.breakdown-con-1{
+    width: 50%;
+    height: 50vh;
+}
+.breakdown-con-1 p{
+    color: rgb(55, 55, 55);
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.breakdown-con-1 h3{
+    color: rgb(9, 9, 9);
+    font-size: 30px;
+    font-weight:bold;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+.percents-container{
+    width: 90%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.con1{
+    height: 100%;
+    width: 70%;
+    border-radius: 40px;
+    background-color: rgb(19, 96, 24);
+}
+.con2{
+    height: 100%;
+    width: 15%;
+    border-radius: 30px;
+    background-color: blue;
+}
+.con3{
+    height: 100%;
+    width: 5%;
+    border-radius: 40px;
+    background-color: rgb(128, 128, 221);
+}
+.con4{
+    height: 100%;
+    width: 8%;
+    border-radius: 40px;
+    background-color: rgb(230, 233, 63);
+}
+.con5{
+    height: 100%;
+    width: 5%;
+    border-radius: 40px;
+    background-color: rgb(244, 103, 56);
+}
+.breakdown-con-2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-con{
+    width: 50%;
+}
+.right-con{
+    width: 50%;
+}
+.left-row{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-top: 40px;
+}
+.left-row-p{
+    color: rgb(82, 81, 81);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}
+
+.breakdown-con-3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.breakdown-con-3 button{
+    height: 60px;
+    width: 230px;
+    padding: 5px;
+    background-color: rgb(225, 224, 224);
+    border-radius: 10px;
+    border:0px;
+    color: black;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.right-box{
+    height: 50px;
+    width:80%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+}
+.right-box p{
+    color: rgb(17, 17, 17);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}
+@media  (max-width:768px) {
+    .breakdown-con-1{
+        width: 100%;
+    }
+    .breakdown-con-2{
+        width: 100%;
+    }
+    .breakdown-con-3{
+        width: 100%;
+    }
+    
+}
