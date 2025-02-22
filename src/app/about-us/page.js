@@ -13,7 +13,8 @@ function About() {
       <main className="about-main">
         <OurMission />
         <ReadStory />
-        <ChangingThings/>
+        <ChangingThings />
+       
       </main>
     <Footer/>
     </div>

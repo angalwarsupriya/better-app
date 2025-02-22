@@ -30,9 +30,7 @@ const QA = () => {
         <div className="qa-item item2">
           <div className="qa-text">
             <h3>One day Mortage?</h3>
-            <p>With this structure, we create a fully responsive home page with a header,
-              hero section, testimonial section, Q&A section, and footer. Each component has its
-              own CSS file for styling, and the home page integrates these components to create the full layout.</p>
+            <p>Kick your home loan into hyperdrive. Going from locked rate to Commitment Letter takes weeks for traditional lenders. We do it in a single day. Traditional lenders deliver a Commitment Letter in a few weeks.</p>
             <button className='item-btn'>
             <FaArrowRight style={{fontSize:"15px"}}/>
 
@@ -43,9 +41,7 @@ const QA = () => {
         <div className="qa-item item3">
           <div className="qa-text">
             <h3>Better HCLOC</h3>
-            <p>With this structure, we create a fully responsive home page with a header,
-              hero section, testimonial section, Q&A section, and footer. Each component has its
-              own CSS file for styling, and the home page integrates these components to create the full layout.</p>
+            <p>Introducing One Day HELOC™—your express lane to getting cash from your home with our Home Equity Line of Credit</p>
             <button className='item-btn'>
             <FaArrowRight style={{fontSize:"15px"}}/>
             </button>

@@ -21,7 +21,7 @@ const Testimonial = () => {
         <button>See all our stories</button>
         <div className='star-row'>
           <IoStarSharp style={{color:"green"}} />
-          <p>My name is Supriya</p>
+          <p>Trustpilot <span>Excellent 4.4 out of 5</span></p>
         </div>
       </div>
     </section>

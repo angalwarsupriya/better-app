@@ -8,14 +8,12 @@ function ReadStory() {
         <div className='read-story-left-con'>
               <h5>The Status quo is broken.</h5>
               <p>
-              With this structure, we create a fully responsive home page with a header,
-              hero section, testimonial section, Q&A section, and footer. Each component has its
-              own CSS file for styling, and the home page integrates these components to create the full layout.
+              The traditional processes around homeownership are opaque and stressful. Fees aren’t transparent and some are simply outrageous in size. Traditional mortgage lending is rife with unnecessary fees and slow, painful processes. It’s a system set up to benefit insiders — not you. Better.com CEO, Vishal Garg, set out to change that.
               </p>
               <button>Read Vishal's story</button>
         </div>
         <div className='read-story-right-con'>
-            <img src='https://media.better.com/video/vishal-mission.jpg' alt='' className='read-story-img'/>
+            <img src='https://media.better.com/video/vishal-mission.jpg' alt='story' className='read-story-img'/>
         </div>
     </section>
   )
